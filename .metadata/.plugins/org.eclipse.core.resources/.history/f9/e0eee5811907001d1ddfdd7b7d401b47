@@ -1,0 +1,5 @@
+package practiceAbstract;
+
+public abstract class Animal {
+
+}

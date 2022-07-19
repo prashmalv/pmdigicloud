@@ -1,0 +1,5 @@
+package practiceInterface;
+
+public interface Language {
+
+}

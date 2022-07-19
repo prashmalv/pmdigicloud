@@ -1,0 +1,19 @@
+package practice;
+
+public class understandEquals {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String first = "Baeldung"; 
+		String second = "Baeldung"; 
+		System.out.println(first == second); // True
+		
+		String third = new String("Baeldung");
+		String fourth = new String("Baeldung"); 
+		System.out.println("result using == "+ third == fourth); // False
+		
+		System.out.println("result using .equals "+ third.equals(fourth) ); // true
+	}
+
+}

@@ -1,0 +1,5 @@
+package practice;
+
+public class ImageSenderImpl implements ISender {
+
+}

@@ -1,0 +1,12 @@
+package practice;
+
+public class aboutFInal {
+
+	final static int MY_CONSTANT = 10;
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//MY_CONSTANT = 15; // can't change
+	}
+
+}

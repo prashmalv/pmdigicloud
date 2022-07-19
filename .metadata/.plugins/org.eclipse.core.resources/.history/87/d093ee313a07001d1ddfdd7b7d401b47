@@ -1,0 +1,33 @@
+package practicePassByRefValue;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Balloon red = new Balloon("Red"); //memory reference 50
+		Balloon blue = new Balloon("Blue"); //memory reference 100
+		
+		swap(red, blue);
+		System.out.println("red color="+red.getColor());
+		System.out.println("blue color="+blue.getColor());
+		
+		foo(blue);
+		System.out.println("blue color="+blue.getColor());
+	}
+
+	private static void foo(Balloon balloon) {
+		// TODO Auto-generated method stub
+		
+				balloon.setColor("Red"); 
+				balloon = new Balloon("Green"); 
+				balloon.setColor("Blue"); 
+	}
+
+	private static void swap(Balloon o1Red, Balloon o2) {
+		// TODO Auto-generated method stub
+		Balloon temp = o1Red;
+		o1Red=o2;
+		o2=temp;
+	}
+
+}

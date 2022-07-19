@@ -1,0 +1,37 @@
+package practice;
+
+public class StringMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		getLengthOfString();
+		jointwoString();
+	}
+
+	private static void jointwoString() {
+		// TODO Auto-generated method stub
+		// create first string
+	    String first = "Java ";
+	    System.out.println("First String: " + first);
+
+	    // create second
+	    String second = "Programming";
+	    System.out.println("Second String: " + second);
+
+	    // join two strings
+	    String joinedString = first.concat(second);
+	    System.out.println("Joined String: " + joinedString);
+	}
+
+	private static void getLengthOfString() {
+		// TODO Auto-generated method stub
+		// create a string
+	    String greet = "Hello! World";
+	    System.out.println("String: " + greet);
+
+	    // get the length of greet
+	    int length = greet.length();
+	    System.out.println("Length: " + length);
+	}
+
+}

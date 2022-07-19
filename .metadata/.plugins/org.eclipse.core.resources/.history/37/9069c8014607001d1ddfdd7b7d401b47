@@ -1,0 +1,12 @@
+package polymorphism;
+
+public class ProcessorMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Processor p = new Processor();
+		Processor mp = new MathProcessor();
+		p.process(10, 20);
+	}
+
+}

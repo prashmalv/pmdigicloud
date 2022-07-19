@@ -1,0 +1,10 @@
+package practice;
+
+public abstract class VehicleParent {
+	
+	 	protected abstract void start();
+	    protected abstract void stop();
+	    protected abstract void drive();
+	    protected abstract void changeGear();
+	    protected abstract void reverse();
+}

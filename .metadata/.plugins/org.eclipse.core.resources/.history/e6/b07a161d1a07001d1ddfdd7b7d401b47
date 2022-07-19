@@ -1,0 +1,5 @@
+package practiceInterface;
+
+public class ProgrammingLanguage implements Language {
+
+}
